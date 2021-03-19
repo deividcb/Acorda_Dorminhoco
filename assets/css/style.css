@@ -1,0 +1,264 @@
+html,body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+}
+
+#bg{
+    background-color:#2c5c82;
+    height: 70%;
+
+}
+
+.bg_acordado{
+    background-color: #fff9a1 !important; 
+}
+
+header{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    background-color:#2c5c82;
+    align-items: center;
+}
+
+#dormindo_text h1{
+    text-align: center;
+    margin:0px;
+    color:white;
+    padding-top: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 40px;
+    display: block;
+    text-shadow:1px 1px 10px black;
+}
+
+.lampadas{
+    display: flex;
+    justify-content: flex-start;
+    width: 85%;
+    height: 30%;
+    margin:auto;
+    align-items: flex-end;
+    
+}
+
+.lampadas img{
+    width: 10%;
+    height: 90%;
+    cursor: pointer;
+    
+}
+
+#lampada_acesa{
+    display:none;
+}
+
+#lampada_apagada{
+    display: block;
+}
+
+#content{
+    height: 70%;
+}
+
+#dormindo_img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#dormindo_img img{
+    height: 100%;
+    width: 50%;
+}
+
+#acordado{
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#caixa_texto_balao{
+    text-align: center;
+    color:black;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 33px;
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.caixa_texto{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    border-radius: 50%;
+    width: 40%;
+    margin-top: -76px;
+}
+
+#caixa_texto_complemento{
+    width: 25px;
+    height: 50px;
+    background-color: white;
+    border-radius:0px 0px 80px 0px;
+    display: none;
+    height: 15%;
+}
+
+#acordado img{
+    height: 70%;
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1{
+    text-align: center;
+    font-size: 16px;
+    margin:0px;
+    padding-top:20px;
+    padding-bottom: 10px;
+    color:white;
+    font-family: 'Shippori Mincho B1', serif;   
+}
+
+footer ul li{
+    list-style: none;
+  padding-left: 10px;
+}
+
+footer li img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0em;
+    margin-block-end:0em;
+    margin-block-start: 0em;
+}
+
+@media (min-width:769px) and (max-width:1140px){
+  
+#dormindo_img img, #acordado img{
+        width: 100%;
+}
+
+.caixa_texto{
+    margin-top: -66px;
+}
+
+#caixa_texto_complemento{
+    height: 4%;
+}
+
+
+
+#dormindo_text h1 {
+    font-size: 50px;
+    padding-top: 120px;
+}
+
+footer h1{
+    font-size: 30px;
+}
+
+footer li img {
+    width: 50px;
+    height: 50px;
+}
+
+}
+
+@media (min-width:426px) and (max-width:768px){
+
+#dormindo_text h1 {
+    padding-top: 100px;
+
+}
+
+#caixa_texto_complemento{
+    height: 5%;
+}
+
+#dormindo_img img, #acordado img{
+    width: 100%;
+}
+
+#caixa_texto_balao{
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  
+footer h1{
+    font-size:  25px;
+}
+
+footer li img {
+    width: 45px;
+    height: 45px;
+
+}
+
+}
+
+@media (max-width:425px){
+
+#dormindo_text h1 {
+        padding-top: 80px;
+        font-size: 26px;
+    }
+
+
+.lampadas img{
+    height: 50%;
+}
+    
+.arrumar{
+        width: 50%;
+    }
+
+#caixa_texto_complemento{
+        height: 5%;
+    }
+    
+#dormindo_img img, #acordado img{   
+        width: 100%;
+    }
+    
+#caixa_texto_balao{
+        font-size: 13px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+      
+footer h1{
+        font-size:  20px;
+    }
+    
+footer li img {
+        width: 35px;
+        height: 35px;
+    }
+   
+}
+
